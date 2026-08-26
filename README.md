@@ -80,3 +80,7 @@ python3 -m unittest discover tests
 ## Copyright
 
 MIT License. Free for personal and commercial use.
+
+## Disclosure
+
+I made liberal use of generative tools to create this add-in. I'm responsible for testing and designing the add-in, and I've been using it to draw some awesome stuff.
