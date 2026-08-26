@@ -1,10 +1,12 @@
 # Fusion 360 Geometric Pattern Add-In
 
-A lightweight, standalone Autodesk Fusion 360 Add-in that replicates the **Geometric Pattern** tool from the Product Design Extension. Create brand-appropriate vent patterns, perforations, and variable-density geometric distributions directly on any planar face without an expensive extension subscription.
+A lightweight Autodesk Fusion 360 Add-in that replicates the planar functionality of the **Geometric Pattern** tool from the Product Design Extension. Create brand-appropriate vent patterns, perforations, and variable-density geometric distributions directly on any planar face without an extension subscription.
 
 ---
 
-## ✨ Features
+## Features 
+
+<img width="1630" height="712" alt="Screenshot 2026-08-26 at 4 20 22 PM" src="https://github.com/user-attachments/assets/4fc9df52-9191-45ab-b768-d1e914673afc" />
 
 - **Face Selection**: Select any planar face on a solid body.
 - **Variable Size Gradient**:
@@ -32,7 +34,7 @@ A lightweight, standalone Autodesk Fusion 360 Add-in that replicates the **Geome
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### macOS (One-Line Setup)
 Run the following command in Terminal to link the add-in into your Fusion 360 AddIns directory:
@@ -51,7 +53,7 @@ ln -s "$(pwd)" "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/A
 
 ---
 
-## 🎯 How to Use
+## Using the Add-in
 
 1. In Fusion 360, open **UTILITIES > Scripts and Add-Ins** (shortcut: `Shift + S`).
 2. Under the **Add-Ins** tab, find **GeometricPattern** and click **Run** (check **Run on Startup** for convenience).
@@ -66,7 +68,7 @@ ln -s "$(pwd)" "$HOME/Library/Application Support/Autodesk/Autodesk Fusion 360/A
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Run the unit test suite:
 ```bash
@@ -75,6 +77,6 @@ python3 -m unittest discover tests
 
 ---
 
-## 📄 License
+## Copyright
 
 MIT License. Free for personal and commercial use.
