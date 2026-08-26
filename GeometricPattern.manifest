@@ -1,0 +1,14 @@
+{
+    "autodeskProduct": "Fusion",
+    "type": "addin",
+    "id": "CustomCAD_GeometricPattern_Addin",
+    "author": "CustomCAD",
+    "description": {
+        "": "Creates variable-density geometric patterns, perforations, and vent holes on planar faces with real-time preview."
+    },
+    "version": "1.0.0",
+    "runOnStartup": false,
+    "supportedOS": "windows|mac",
+    "editEnabled": true,
+    "iconFilename": "AddInIcon.svg"
+}
